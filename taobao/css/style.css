@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    list-style: none;
+}
+#only{
+    width: 100%;
+}
+#header{
+    width: 1190px;
+    height: 97px;
+    margin: 0 auto;
+    padding-top: 34px;
+}
+#header>.h1{
+    float: left;
+    width: 190px;
+    height: 88px;
+    /*background-color: green;*/
+}
+#header>.h1>img{
+    width: 142px;
+    height: 58px;
+    margin: 0 15px;
+}
+#header>.h2{
+    float: left;
+    width: 630px;
+    height: 87px;
+    margin-left: 20px;
+    /*background-color: green;*/
+}
+#header>.h2>.ul1{
+    width: 100%;
+    height: 22px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+#header>.h2>.ul1>li{
+    float: left;
+    width: 36px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #F40;
+    margin-right: 3px;
+    border-radius: 8px 8px 0 0;
+}
+#header>.h2>.ul1>li:nth-child(1){
+    background-color: #ff5400;
+    color: white;
+
+}
+
+#header>.h2>div{
+    width: 100%;
+    height: 40px;
+}
+#header>.h2>div>input{
+    float: left;
+    width: 88%;
+    height: 40px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 20px 0 0 20px;
+    /*border: 0;*/
+    border: 2px solid coral;
+    text-indent: 38px;
+}
+#header>.h2>div>button{
+    float: right;
+    width: 12%;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 18px;
+    outline: none;
+    border-radius: 0 20px 20px 0;
+    border: 0;
+    cursor: pointer;
+    /*background-color: #FF4200;*/
+    color: white;
+}
+#header>.h2>.ul2{
+    width: 100%;
+    height: 20px;
+    padding-top: 5px;
+}
+#header>.h2>.ul2>li{
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    margin-right: 8px;
+}
+
+#header>div{
+    margin-right: 90px;
+}
+
+#header>.h3{
+    float: left;
+    width: 76px;
+    height: 90px;
+}
+#header>.h3>img{
+    /*float: left;*/
+    width: 76px;
+    height: 90px;
+}
+
+
+
+#search{
+    width: 100%;
+    /*height: 500px;*/
+    background-color: #cccccc;
+}
+#search>#_search{
+    width: 1190px;
+    /*height: 500px;*/
+    background-color: white;
+    margin: 0 auto;
+}
+#_search>.top{
+    width: 100%;
+    height: 30px;
+    background-color: #ff5000;
+}
+#_search>.top>h2{
+    float: left;
+    width: 190px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff5400;
+}
+#_search>.top>ul{
+    float: left;
+    height: 30px;
+}
+#_search>.top>ul>li{
+    float: left;
+    margin-top: 4px;
+    border-right: 1px solid white;
+}
+#_search>.top>ul>li:last-child{
+    border: 0;
+}
+#_search>.top>ul>li>span{
+    padding: 0 10px;
+    font-size: 16px;
+    color: white;
+}
+
+#_search>.btn{
+    width: 100%;
+    height: 632px
+    margin: 0 auto;
+}
+#_search>.btn>div{
+    float: left;
+}
+#_search>.btn>.left{
+    width: 900px;
+    height: 632px;
+
+}
+#_search>.btn>.left>ul{
+    float: left;
+    width: 190px;
+    height: 521px;
+    border: 1px solid #ff5400;
+    border-top: none;
+    box-sizing: border-box;
+}
+#_search>.btn>.left>ul>li{
+    width: 145px;
+    height: 32px;
+    padding-left: 22px;
+    /*text-align: center;*/
+    line-height: 32px;
+}
+#_search>.btn>.left>ul>li>i{
+    float: right;
+}
+
+#_search>.btn>.left>img{
+    float: left;
+}
+#_search>.btn>.left>.i1,#_search>.btn>.left>.i2{
+    margin-top: 10px;
+}
+#_search>.btn>.left>.i3{
+    margin-left: 10px;
+}
+
+
+
+
+#_search>.btn>.right{
+    width: 290px;
+    height: 632px;
+}
+#_search>.btn>.right>div{
+    width: 290px;
+}
+#_search>.btn>.right>.d1>img{
+    width: 290px;
+}
+#_search>.btn>.right>.d1>button{
+    display: inline-block;
+    border: 0;
+    outline: none;
+    width: 92px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 3px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#_search>.btn>.right>.d2{
+    width: 100%;
+}
+#_search>.btn>.right>.d2>h3{
+    width: 100%;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    background-color: #ffe4dd;
+    color: #ff5400;
+    font-weight: normal;
+}
